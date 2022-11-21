@@ -1,0 +1,76 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.white-container-1 {
+  background-color: white;
+  border-radius: 10px;
+
+  padding: 10px;
+  max-width: 700px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 3px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.emojis-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style-type: none;
+  padding: 10px;
+}
+.emoji {
+  height: 80px;
+}
+.heading {
+  text-align: center;
+}
+.emoji-heading {
+  font-size: small;
+}
+.button-style {
+  background-color: transparent;
+  border: 0px none transparent;
+
+  cursor: pointer;
+}
+.love-emoji {
+  font-size: 80px;
+}
+.white-container-2 {
+  background-color: white;
+  border-radius: 10px;
+
+  padding: 10px;
+  max-width: 800px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thanks-para {
+  text-align: center;
+  align-self: center;
+}
