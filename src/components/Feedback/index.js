@@ -25,20 +25,23 @@ export default class Feedback extends Component {
           </h1>
           <ul className="emojis-container">
             {emojis.map(emojiObject => (
+        <li key={emojiObject.id} className="emoji-container">
               <button
                 onClick={this.updateState}
                 className="button-style"
                 type="button"
               >
-                <li key={emojiObject.id} className="emoji-container">
+                
                   <img
                     className="emoji"
                     src={emojiObject.imageUrl}
                     alt={emojiObject.name}
                   />
                   <h1 className="emoji-heading">{emojiObject.name}</h1>
-                </li>
+                
               </button>
+    
+    </li>
             ))}
           </ul>
         </div>
